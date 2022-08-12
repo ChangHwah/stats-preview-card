@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="/dist/output.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Stats preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body class="m-0 h-screen bg-very-dark-blue text-white flex flex-col items-center justify-center font-body">
+  <div class="flex flex-row">
+    <div class="p-10 flex flex-col justify-center bg-soft-desaturated-blue rounded-l-lg">
+      <h1 class="text-xl">Get <span>insights</span> that help your business grow.</h1>
+
+      <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
+      <div class="grid grid-cols-3 gap-4">
+        <div>
+          <h2>10k+</h2> <p>companies</p>
+        </div>
+        <div>
+          <h2>314</h2> <p>templates</p>
+        </div>
+        <div>
+          <h2>12m+</h2> <p>queries</p>
+        </div>
+      </div>
+    </div>
+    <div class="w-full h-full relative">
+      <div class="rounded-r-lg bg-soft-violet w-full h-full absolute opacity-30"></div>
+      <div class="rounded-r-lg bg-center bg-no-repeat absolute w-full h-full -z-10 brightness-35" style="background-image: url('../images/image-header-desktop.jpg');">
+      </div>
+    </div>
+  </div>
+  <div class="bg-cover image-header-desktop"></div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#" target="_blank">Solomon Swager</a>.
+  </div>
+</body>
+</html>
