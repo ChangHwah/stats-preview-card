@@ -7,9 +7,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap" rel="stylesheet">
-  
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap" rel="stylesheet">
   <title>Frontend Mentor | Stats preview card component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -18,27 +16,29 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
-<body class="m-0 h-screen bg-very-dark-blue text-white flex flex-col items-center justify-center font-body">
-  <div class="flex flex-row">
-    <div class="p-10 flex flex-col justify-center bg-soft-desaturated-blue rounded-l-lg">
-      <h1 class="text-xl">Get <span>insights</span> that help your business grow.</h1>
-
-      <p>Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
+<body class="h-screen bg-very-dark-blue text-white flex flex-col items-center justify-center font-body">
+  <div class="p-2 flex lg:flex-row sm:flex-col-reverse">
+    <div class="p-16 flex flex-col justify-center bg-soft-desaturated-blue rounded-l-lg">
+      <h1 class="text-h1 leading-tight font-bold">Get <span class="text-soft-violet">insights</span> that help your business grow.</h1>
+      <p class="text-p pt-7 pb-20 text-main-paragraph">Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
       <div class="grid grid-cols-3 gap-4">
         <div>
-          <h2>10k+</h2> <p>companies</p>
+          <h2 class="text-h2 font-bold">10k+</h2>
+          <p class="text-p uppercase text-stat-headings">companies</p>
         </div>
         <div>
-          <h2>314</h2> <p>templates</p>
+          <h2 class="text-h2 font-bold">314</h2>
+          <p class="text-p uppercase text-stat-headings">templates</p>
         </div>
         <div>
-          <h2>12m+</h2> <p>queries</p>
+          <h2 class="text-h2 font-bold uppercase">12m+</h2>
+          <p class="text-p uppercase text-stat-headings">queries</p>
         </div>
       </div>
     </div>
-    <div class="w-full h-full relative">
+    <div class="w-full h-full relative pr-16">
       <div class="rounded-r-lg bg-soft-violet w-full h-full absolute opacity-30"></div>
-      <div class="rounded-r-lg bg-center bg-no-repeat absolute w-full h-full -z-10 brightness-35" style="background-image: url('../images/image-header-desktop.jpg');">
+      <div class="rounded-r-lg bg-cover bg-center bg-no-repeat absolute w-full h-full -z-10 brightness-35" style="background-image: url('../images/image-header-desktop.jpg');">
       </div>
     </div>
   </div>
