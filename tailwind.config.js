@@ -20,6 +20,9 @@ module.exports = {
       },
       fontFamily: {
         'body': ['Inter', '"Lexend Deca"']
+      },
+      screens: {
+        'xm': '200px'
       }
     },
   },
