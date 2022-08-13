@@ -6,15 +6,14 @@ module.exports = {
       colors: {
         'very-dark-blue': 'hsl(233, 47%, 7%)',
         'soft-desaturated-blue': 'hsl(244, 38%, 16%)',
-        'soft-violet': 'hsl(277, 64%, 61%)',
+        'soft-violet-image': 'hsl(277, 64%, 37%)',
+        'soft-violet':'hsl(277, 64%, 61%)',
         'main-paragraph': 'hsla(0, 0%, 100%, 0.75)',
         'stat-headings': 'hsla(0, 0%, 100%, 0.6)'
       },
       backgroundImage: {
-        'image-header-desktop': "url('../images/image-header-desktop.jpg')"
-      },
-      brightness: {
-        '35': '.35'
+        'image-header-desktop': "url('../images/image-header-desktop.jpg')",
+        'image-header-mobile': "url('../images/image-header-mobile.jpg')"
       },
       fontSize: {
         'h1': '2.5rem',
@@ -25,7 +24,7 @@ module.exports = {
         'body': ['Inter', '"Lexend Deca"']
       },
       screens: {
-        'xm': '200px'
+        'pc':'1270px',
       }
     },
   },

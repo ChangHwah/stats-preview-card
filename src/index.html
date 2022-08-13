@@ -16,12 +16,12 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
 </head>
-<body class="h-screen bg-very-dark-blue text-white flex flex-col items-center justify-center font-body">
-  <div class="p-2 flex flex-row">
+<body class="h-screen bg-very-dark-blue text-white flex flex-col items-center justify-center font-body text-center box-border pc:text-left">
+  <div class="p-10 flex flex-col-reverse pc:flex-row max-w-[500px] pc:max-w-[1300px]">
     <div class="p-16 flex flex-col justify-center bg-soft-desaturated-blue rounded-l-lg">
       <h1 class="text-h1 leading-tight font-bold">Get <span class="text-soft-violet">insights</span> that help your business grow.</h1>
       <p class="text-p pt-7 pb-20 text-main-paragraph">Discover the benefits of data analytics and make better decisions regarding revenue, customer experience, and overall efficiency.</p>
-      <div class="grid grid-cols-3 gap-4">
+      <div class="grid grid-cols-1 gap-8 md:grid-cols-3 md:gap-4">
         <div>
           <h2 class="text-h2 font-bold">10k+</h2>
           <p class="text-p uppercase text-stat-headings">companies</p>
@@ -36,7 +36,9 @@
         </div>
       </div>
     </div>
-    <div class="w-full h-full bg-cover bg-no-repeat bg-image-header-desktop bg-soft-violet bg-blend-multiply rounded-r-lg">
+    <div class="w-full bg-soft-violet-image rounded-t-lg pc:rounded-tl-none pc:rounded-r-lg">
+      <img class="opacity-40 brightness-60 hidden pc:block pc:rounded-r-lg" src="../images/image-header-desktop.jpg" width="100%" height="auto" alt="">
+      <img class="opacity-40 brightness-60 block pc:hidden pc:rounded-t-lg" src="../images/image-header-mobile.jpg" width="100%" height="auto" alt="">
     </div>
   </div>
   <div class="attribution">
