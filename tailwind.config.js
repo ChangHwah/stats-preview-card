@@ -10,6 +10,9 @@ module.exports = {
         'main-paragraph': 'hsla(0, 0%, 100%, 0.75)',
         'stat-headings': 'hsla(0, 0%, 100%, 0.6)'
       },
+      backgroundImage: {
+        'image-header-desktop': "url('../images/image-header-desktop.jpg')"
+      },
       brightness: {
         '35': '.35'
       },
