@@ -9,7 +9,9 @@ module.exports = {
         'soft-violet-image': 'hsl(277, 64%, 37%)',
         'soft-violet':'hsl(277, 64%, 61%)',
         'main-paragraph': 'hsla(0, 0%, 100%, 0.75)',
-        'stat-headings': 'hsla(0, 0%, 100%, 0.6)'
+        'stat-headings': 'hsla(0, 0%, 100%, 0.6)',
+        'links':'hsl(228, 45%, 44%)',
+        'attribution':'hsl(223, 47%, 23%)'
       },
       backgroundImage: {
         'image-header-desktop': "url('../images/image-header-desktop.jpg')",
@@ -17,8 +19,8 @@ module.exports = {
       },
       fontSize: {
         'h1': '2.5rem',
-        'h2': '2rem',
-        'p': '1rem'
+        'h3': '1.75rem',
+        'p': '15px'
       },
       fontFamily: {
         'body': ['Inter', '"Lexend Deca"']
